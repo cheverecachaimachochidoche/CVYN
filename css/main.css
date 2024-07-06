@@ -1,0 +1,125 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 246, 246);
+}
+
+.logo {
+  padding-left: 20px;
+  height: 80px;
+  width: auto;
+}
+
+.nav-item {
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  margin: 0; /* Elimina todos los márgenes */
+  padding: 5px 0; /* Añade relleno arriba y abajo */
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
+  align-items: center;
+  background-color: rgb(255, 255, 255); /* Color gris claro con 50% de transparencia */
+  width: 100%; /* Abarca todo el ancho de la página */
+  position: fixed; /* Fija el menú en la parte superior */
+  top: 0; /* Se asegura de que esté en la parte superior */
+  left: 0; /* Se asegura de que esté alineado a la izquierda */
+  z-index: 1000; /* Ajusta el z-index para que esté sobre otros elementos si es necesario */
+}
+
+.men {
+  margin-top: 100px;
+}
+
+.pie {
+  padding-top: 201px;
+  text-align: center;
+}
+
+.imgpie {
+  height: 50px;
+  width: auto;
+}
+
+.encabez {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos en columna */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  height: 600px; /* Ajusta la altura según sea necesario */
+  background-image: url("../assets/encab.jpg"); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Asegúrate de que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen de fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: white; /* Ajusta el color del texto si es necesario para que sea visible sobre la imagen */
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-link {
+  color: white; /* Ajusta el color del texto a blanco */
+}
+
+.nav-lin {
+  color: rgb(33, 33, 33); /* Ajusta el color del texto a blanco */
+}
+
+.nav-link.disabled {
+  color: white; /* Asegúrate de que los enlaces deshabilitados también sean blancos */
+}
+
+article h1 {
+  text-align: center;
+}
+
+.card {
+  width: 100%; /* Abarca todo el ancho disponible */
+  /* Otros estilos opcionales para la apariencia de la tarjeta */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Espacio opcional entre tarjetas */
+  display: flex;
+  flex-direction: column; /* Alinear elementos en columna */
+  align-items: center; /* Centrar elementos horizontalmente */
+  text-align: center; /* Centrar texto dentro de la tarjeta */
+}
+
+.card-img-top {
+  padding-top: 100px;
+  width: 30%; /* Ajusta la imagen al ancho completo de la tarjeta */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-title,
+.card-text,
+.btn {
+  margin: 10px; /* Espacio entre elementos */
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column; /* Cambia a dirección de columna para menú en dispositivos móviles */
+    gap: 10px; /* Espacio entre elementos en la columna */
+  }
+  .card-img-top {
+    width: 100%; /* Ajusta la imagen al ancho completo en dispositivos móviles */
+  }
+  .imgpie {
+    width: 30px; /* Ajusta el tamaño de las imágenes del pie de página en dispositivos móviles */
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
