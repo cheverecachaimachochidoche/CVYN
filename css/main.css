@@ -133,14 +133,15 @@ article h1 {
     width: 100%;
   }
   .encabez {
-    flex-direction: column; /* Cambia a dirección de fila para el menú vertical */
-    justify-content: flex-start; /* Alinea al inicio horizontalmente */
+    flex-direction: column; /* Cambia a dirección de columna para el menú vertical */
+    align-items: flex-start; /* Alinea al inicio horizontalmente */
     padding: 10px; /* Añade un espacio entre elementos */
   }
   .nav {
-    flex-direction: row;
+    flex-direction: column;
     gap: 3px; /* Espacio entre los elementos del menú */
-    font-size: xx-small;
+    font-size: small;
+    text-align: center; /* Alinea el texto al centro */
   }
   .navbar-nav {
     text-align: right; /* Alinea los elementos de .navbar-nav a la derecha */
