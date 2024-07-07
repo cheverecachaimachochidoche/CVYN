@@ -4,14 +4,9 @@
     width: auto;
 }
 
-.nav-item{
-  
-    padding-right: 20px;
-    justify-content: center;
-    align-items: center;
-}
 
-.menu {
+
+.navbar {
     margin: 0; /* Elimina todos los márgenes */
     padding: 5px 0; /* Añade relleno arriba y abajo */
     display: flex;
@@ -25,9 +20,6 @@
     z-index: 1000; /* Ajusta el z-index para que esté sobre otros elementos si es necesario */
 }
 
-.men {
-    margin-top: 100px;
-}
 
 
 
@@ -64,7 +56,10 @@
 }
 
 .nav-link {
-    color: white; /* Ajusta el color del texto a blanco */
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
 }
 
 .nav-lin {
