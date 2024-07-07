@@ -13,9 +13,12 @@
         width: 100%;
     }
 
-    h1{
-font-size: large;
-    }
+    .encabez {
+      flex-direction: column; /* Cambia a dirección de fila para el menú vertical */
+      justify-content: flex-start; /* Alinea al inicio horizontalmente */
+      padding: 10px; /* Añade un espacio entre elementos */
+  }
+
 
     .nav {
         flex-direction: row;
