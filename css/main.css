@@ -121,7 +121,7 @@ article h1 {
     font-size: xx-small;
   }
   .menu {
-    flex-direction: row; /* Cambia a dirección de columna para menú en dispositivos móviles */
+    flex-direction: column; /* Cambia a dirección de columna para menú en dispositivos móviles */
     gap: 5px; /* Espacio entre elementos en la columna */
   }
   .men {
