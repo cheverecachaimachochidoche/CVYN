@@ -110,8 +110,19 @@ article h1 {
 
 /* Media Query para dispositivos móviles */
 @media (max-width: 768px) {
+  .logo {
+    padding-left: 10px;
+    height: 20px;
+    width: auto;
+  }
+  .nav {
+    list-style: none;
+    padding: 0;
+    font-size: small;
+  }
   .menu {
     flex-direction: column; /* Cambia a dirección de columna para menú en dispositivos móviles */
+    font-size: small;
     gap: 10px; /* Espacio entre elementos en la columna */
   }
   .card-img-top {
