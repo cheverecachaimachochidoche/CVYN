@@ -19,8 +19,8 @@
     }
 
     .men {
-        
-        font-size:xx-small;
+        flex-direction: column; /* Cambia a dirección de columna para menú en dispositivos móviles */
+        font-size:small;
       
   
       }
