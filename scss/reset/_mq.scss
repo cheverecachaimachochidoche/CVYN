@@ -6,16 +6,20 @@
         height: 20px;
         width: auto;
     }
-    .nav {
-        list-style: none;
-        padding: 0;
-        font-size: xx-small;
-    
-    }
-    .menu {
-      flex-direction: column; /* Cambia a dirección de columna para menú en dispositivos móviles */
-      gap: 5px; /* Espacio entre elementos en la columna */
 
+    .menu {
+        flex-direction: row; /* Mantén la dirección en fila para dispositivos móviles */
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav {
+        flex-direction: row;
+        gap: 10px; /* Espacio entre los elementos del menú */
+    }
+
+    .nav-item {
+        margin: 0 5px;
     }
 
     .men {
