@@ -116,7 +116,7 @@ article h1 {
     width: auto;
   }
   .menu {
-    flex-direction: row; /* Mantén la dirección en fila para dispositivos móviles */
+    flex-direction: row;
     justify-content: space-between;
     width: 100%;
   }

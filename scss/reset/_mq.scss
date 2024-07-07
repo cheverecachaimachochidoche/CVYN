@@ -8,11 +8,10 @@
     }
 
     .menu {
-        flex-direction: row; /* Mantén la dirección en fila para dispositivos móviles */
+        flex-direction: row;
         justify-content: space-between;
         width: 100%;
     }
-
     .nav {
         flex-direction: row;
         gap: 10px; /* Espacio entre los elementos del menú */
