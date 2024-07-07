@@ -103,7 +103,7 @@ article h1 {
 }
 
 .custom-toggler {
-  border-color: transparent; /* Sin borde */
+  border: none; /* Sin borde */
   background-color: transparent; /* Fondo transparente */
 }
 
