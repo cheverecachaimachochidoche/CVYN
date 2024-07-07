@@ -138,9 +138,9 @@ article h1 {
     padding: 10px; /* Añade un espacio entre elementos */
   }
   .nav {
-    flex-direction: column;
-    gap: 3px; /* Espacio entre los elementos del menú */
-    font-size: small;
+    flex-direction: column; /* Cambia a dirección de fila para pantallas pequeñas */
+    justify-content: center; /* Distribuye los elementos equitativamente */
+    align-items: center; /* Mantiene la alineación horizontal */
     text-align: center; /* Alinea el texto al centro */
   }
   .navbar-nav {
