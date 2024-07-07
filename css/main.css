@@ -64,6 +64,13 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.nav-links {
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
 .nav-lin {
   color: rgb(33, 33, 33); /* Ajusta el color del texto a blanco */
 }
