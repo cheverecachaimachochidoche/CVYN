@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
   align-items: center;
-  background-color: rgb(255, 255, 255); /* Color gris claro con 50% de transparencia */
+  background-color: rgba(255, 255, 255, 0.5); /* Color gris claro con 50% de transparencia */
   width: 100%; /* Abarca todo el ancho de la página */
   position: fixed; /* Fija el menú en la parte superior */
   top: 0; /* Se asegura de que esté en la parte superior */
@@ -140,8 +140,11 @@ article h1 {
     gap: 3px; /* Espacio entre los elementos del menú */
     font-size: xx-small;
   }
-  .nav-item {
-    margin: 0 5px;
+  .navbar-nav {
+    text-align: right; /* Alinea los elementos de .navbar-nav a la derecha */
+  }
+  .navbar-nav .nav-item {
+    margin-left: 5px; /* Margen izquierdo entre elementos */
   }
   .men {
     flex-direction: column; /* Cambia a dirección de columna para menú en dispositivos móviles */

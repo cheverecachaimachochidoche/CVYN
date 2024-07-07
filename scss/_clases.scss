@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
     align-items: center;
-    background-color: rgba(255, 255, 255, 1); /* Color gris claro con 50% de transparencia */
+    background-color: rgba(255, 255, 255, .5); /* Color gris claro con 50% de transparencia */
     width: 100%; /* Abarca todo el ancho de la página */
     position: fixed; /* Fija el menú en la parte superior */
     top: 0; /* Se asegura de que esté en la parte superior */
@@ -77,6 +77,8 @@
 .nav-link.disabled {
     color: white; /* Asegúrate de que los enlaces deshabilitados también sean blancos */
 }
+
+
 
 article h1 {
     text-align: center;
