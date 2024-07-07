@@ -124,7 +124,7 @@ article h1 {
   .nav {
     flex-direction: row;
     gap: 10px; /* Espacio entre los elementos del menú */
-    font-size: x-small;
+    font-size: xx-small;
   }
   .nav-item {
     margin: 0 5px;
