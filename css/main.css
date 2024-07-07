@@ -138,6 +138,7 @@ article h1 {
     padding: 10px; /* Añade un espacio entre elementos */
   }
   .nav {
+    padding-top: 200px;
     flex-direction: column; /* Cambia a dirección de fila para pantallas pequeñas */
     justify-content: center; /* Distribuye los elementos equitativamente */
     align-items: center; /* Mantiene la alineación horizontal */
