@@ -1,62 +1,70 @@
 /* Media Query para dispositivos móviles */
 @media (max-width: 768px) {
-
-    .logo{
-        padding-left: 10px;
-        height: 20px;
-        width: auto;
-    }
-
-    .menu {
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .encabez {
-      flex-direction: column; /* Cambia a dirección de columna para el menú vertical */
-      align-items: flex-start; /* Alinea al inicio horizontalmente */
-      padding: 10px; /* Añade un espacio entre elementos */
+  .logo {
+      padding-left: 10px;
+      height: 20px;
+      width: auto;
   }
 
+  .menu {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+  }
 
-    .nav {
+  .encabez {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centra horizontalmente */
+      justify-content: center; /* Centra verticalmente */
+      height: 100vh; /* Asegura que ocupa toda la altura de la pantalla */
+      padding: 0; /* Opcional: elimina el padding si es necesario */
+      text-align: center; /* Centra el texto si hay algún texto en la .encabez */
+  }
+
+  .nav {
       padding-top: 100px;
       flex-direction: column; /* Cambia a dirección de fila para pantallas pequeñas */
-      justify-content:center; /* Distribuye los elementos equitativamente */
+      justify-content: center; /* Distribuye los elementos equitativamente */
       align-items: center; /* Mantiene la alineación horizontal */
       text-align: center; /* Alinea el texto al centro */
-    }
+  }
 
-    .navbar-nav {
+  .navbar-nav {
       text-align: right; /* Alinea los elementos de .navbar-nav a la derecha */
   }
-  
-    .navbar-nav .nav-item {
+
+  .navbar-nav .nav-item {
       margin-left: 5px; /* Margen izquierdo entre elementos */
   }
-    .men {
-        flex-direction: column; /* Cambia a dirección de columna para menú en dispositivos móviles */
-        font-size:small;
-      
-  
-      }
-  
-    .card-img-top {
-      width: 100%; /* Ajusta la imagen al ancho completo en dispositivos móviles */
-    }
-  
-    .imgpie {
-      width: 30px; /* Ajusta el tamaño de las imágenes del pie de página en dispositivos móviles */
-    }
-    .custom-toggler {
-        background-color: transparent; /* Fondo transparente */
-        border: none; /* Sin borde */
-      }
-    
-      .custom-toggler .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-        background-color: transparent; /* Asegura que el fondo del ícono también sea transparente */
-        border: none; /* Sin borde */
-      }
+
+  .men {
+      flex-direction: column; /* Cambia a dirección de columna para menú en dispositivos móviles */
+      font-size: small;
   }
+
+  .card-img-top {
+      width: 100%; /* Ajusta la imagen al ancho completo en dispositivos móviles */
+  }
+
+  .imgpie {
+      width: 30px; /* Ajusta el tamaño de las imágenes del pie de página en dispositivos móviles */
+  }
+
+  .custom-toggler {
+      background-color: transparent; /* Fondo transparente */
+      border: none; /* Sin borde */
+  }
+
+  .custom-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      background-color: transparent; /* Asegura que el fondo del ícono también sea transparente */
+      border: none; /* Sin borde */
+  }
+
+  /* Añadido para centrar el título */
+  .centered-title {
+      width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+      text-align: center; /* Centra el texto */
+  }
+}
