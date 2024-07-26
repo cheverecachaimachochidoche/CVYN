@@ -154,6 +154,31 @@ article h1 {
   padding-top: 100px;
 }
 
+.testimonial {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.testimonial-content {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-text {
+  margin-left: 15px;
+}
+
 /* Media Query para dispositivos móviles */
 @media (max-width: 768px) {
   .logo {
